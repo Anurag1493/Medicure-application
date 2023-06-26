@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: medicure-test-app
-        image: pravallikamunny/healthcare-app:1.0
+        image: anurag1493/healthcare-app:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8082
